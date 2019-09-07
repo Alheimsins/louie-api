@@ -1,0 +1,29 @@
+{
+  "name": "louie-api",
+  "version": "1.0.0",
+  "description": "The one and only api for louie",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "dev": "now dev",
+    "deploy": "now --prod",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm i",
+    "standard-fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alheimsins/louie-api.git"
+  },
+  "keywords": [],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alheimsins/louie-api/issues"
+  },
+  "homepage": "https://github.com/Alheimsins/louie-api#readme",
+  "devDependencies": {
+    "ava": "2.3.0",
+    "nyc": "14.1.1",
+    "standard": "14.1.0"
+  }
+}

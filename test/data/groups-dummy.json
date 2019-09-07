@@ -1,0 +1,23 @@
+[
+  {
+    "gid": "NOTVS:1SSA",
+    "sid": "NOTVS",
+    "name": "Service og samferdsel",
+    "description": "",
+    "type": "main"
+  },
+  {
+    "gid": "NOTVS:1ST/151FSP509",
+    "sid": "NOTVS",
+    "name": "Spansk",
+    "description": "Spansk I, 1. år",
+    "type": "class"
+  },
+  {
+    "gid": "NOTVS:1ST/208FSM509",
+    "sid": "NOTVS",
+    "name": "Matematikk",
+    "description": "Matematikk II, 2. år",
+    "type": "class"
+  }
+]
