@@ -18,7 +18,7 @@
         "fontSize": 12,
         "text": "/${schoolName}",
         "startAt": {
-          "x": 450,
+          "x": 350,
           "y": 50
         }
       },
@@ -35,7 +35,7 @@
         "text": "Varsel om mulig nedsatt karakter i orden",
         "startAt": {
           "x": 100,
-          "y": 80
+          "y": 120
         }
       }
     ],

@@ -4,7 +4,7 @@
   "scope": "alheimsins",
   "alias": "api.louie.alheimsins.net",
   "env": {
-    "PDF_SERVICE_URL": "https://pdf.louie.alheimsins.net/api/pdf"
+    "PDF_SERVICE_URL": "https://pdf.louie.alheimsins.net/api/generate/pdf"
   },
   "builds": [
     {
