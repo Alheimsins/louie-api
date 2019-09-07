@@ -12,6 +12,8 @@ The one and only api for louie
 
 ## `POST /api/document/send`
 
+## `POST /api/document/preview`
+
 # License
 
 [MIT](LICENSE)

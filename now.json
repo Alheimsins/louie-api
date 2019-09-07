@@ -3,6 +3,9 @@
   "name": "louie-api",
   "scope": "alheimsins",
   "alias": "api.louie.alheimsins.net",
+  "env": {
+    "PDF_SERVICE_URL": "https://pdf.louie.alheimsins.net/api/pdf"
+  },
   "builds": [
     {
       "src": "/*.md",
@@ -33,6 +36,22 @@
     {
       "src": "/api/documents",
       "dest": "/api/get-documents.js",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+      }
+    },
+    {
+      "src": "/api/documents/preview",
+      "dest": "/api/document-preview.js",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+      }
+    },
+    {
+      "src": "/api/documents/send",
+      "dest": "/api/document-send.js",
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
