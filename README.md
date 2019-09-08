@@ -8,6 +8,8 @@ The one and only api for louie
 
 ## `GET /api/students`
 
+## `GET /api/students/:id`
+
 ## `GET /api/documents`
 
 ## `POST /api/documents/send`

@@ -1,0 +1,37 @@
+{
+  "name": "Bill Bollerud",
+  "uid": "18987654321",
+  "username": "bolb",
+  "address": "Kongleskogen 98, 1732 Høtten",
+  "phone": "98765432",
+  "mail": "bollekongen@hotmail.com",
+  "guardians": [
+    {
+      "name": "Bill Bollerud",
+      "uid": "18987654324",
+      "address": "Kongleskogen 98, 1732 Høtten",
+      "phone": "98765432",
+      "mail": "bollekongen@hotmail.com"
+    },
+    {
+      "name": "Bill Bollerud",
+      "uid": "18987654324",
+      "address": "Kongleskogen 98, 1732 Høtten",
+      "phone": "98765432",
+      "mail": "bollekongen@hotmail.com"
+    }
+  ],
+  "groups": "BAMVS:1HSA",
+  "classes": [
+    "Engelsk",
+    "Norsk",
+    "Fransk"
+  ],
+  "warnings": [
+    {
+      "date": "",
+      "type": "",
+      "from": ""
+    }
+  ]
+}
