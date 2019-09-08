@@ -51,7 +51,14 @@
     },
     {
       "src": "/api/documents/generate/base64",
-      "dest": "/api/document-generate-base64.js"
+      "dest": "/api/document-generate-base64.js",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+        "Access-Control-Allow-Methods": "OPTIONS, POST",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Max-Age": "3600"
+      }
     },
     {
       "src": "/api/documents/send",
