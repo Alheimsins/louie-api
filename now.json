@@ -50,6 +50,14 @@
       }
     },
     {
+      "src": "/api/documents/generate/b64",
+      "dest": "/api/document-generate-b64.js",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+      }
+    },
+    {
       "src": "/api/documents/send",
       "dest": "/api/document-send.js",
       "headers": {
