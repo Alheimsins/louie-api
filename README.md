@@ -70,7 +70,7 @@ The one and only api for louie
 $ curl http://localhost:3000/api/documents/generate -d @test/data/template-data.json --header "Content-Type: application/json" > document.pdf
 ```
 
-## `POST /api/documents/generate/b64`
+## `POST /api/documents/generate/base64`
 
 # Related
 - [louie-frontend](https://github.com/Alheimsins/louie-frontend) - frontend for the louie services
