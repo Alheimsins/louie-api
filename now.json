@@ -42,8 +42,8 @@
       }
     },
     {
-      "src": "/api/documents/preview",
-      "dest": "/api/document-preview.js",
+      "src": "/api/documents/generate",
+      "dest": "/api/document-generate.js",
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"

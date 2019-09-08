@@ -12,7 +12,7 @@ The one and only api for louie
 
 ## `POST /api/document/send`
 
-## `POST /api/document/preview`
+## `POST /api/document/generate`
 
 ```
 {
@@ -64,6 +64,10 @@ The one and only api for louie
     ]
   }
 }
+```
+
+```
+$ curl http://localhost:3000/api/documents/generate -d @test/data/template-data.json --header "Content-Type: application/json" > document.pdf
 ```
 
 # License
