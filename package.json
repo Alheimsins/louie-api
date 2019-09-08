@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The one and only api for louie",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "standard",
     "dev": "now dev",
@@ -14,7 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/Alheimsins/louie-api.git"
   },
-  "keywords": [],
+  "keywords": [
+    "api",
+    "microservice",
+    "louie"
+  ],
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",
