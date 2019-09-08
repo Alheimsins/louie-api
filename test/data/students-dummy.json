@@ -1,146 +1,164 @@
 [
   {
     "name": "Bill Bollerud",
-    "uid": "18987654321",
-    "username": "bolb",
+    "uid": "18987654301",
+    "username": "bolb1",
     "address": "Kongleskogen 98, 1732 Høtten",
     "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
+    "mail": "bollekongen@hotmail.com",
+    "groups": "BAMVS:1HSA"
   },
   {
     "name": "Ballerina Bollerud",
-    "uid": "18987654322",
+    "uid": "18987654302",
+    "username": "bolb2",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "bollekongen@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Ayn Rand",
+    "uid": "18987654303",
+    "username": "bolb3",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "ayn.rand@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Baron de Montesquieu",
+    "uid": "18987654304",
+    "username": "bolb4",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "baron.de.montesquieu@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "George Berkeley",
+    "uid": "18987654305",
+    "username": "bolb5",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "george.berkeley@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Jean-Jacques Rousseau",
+    "uid": "18987654306",
+    "username": "bolb6",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "jean-jacques.Rousseau@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Paul Smith",
+    "uid": "18987654307",
+    "username": "bolb7",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "paul.smith@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Simone de Beauvoir",
+    "uid": "18987654308",
+    "username": "bolb8",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "simone.de.Beauvoir@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Sun Tzu",
+    "uid": "18987654309",
+    "username": "bolb9",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "sun.tzu@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Thomas Topstad",
+    "uid": "18987654310",
+    "username": "bolb10",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "thomas.topstad@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Platon",
+    "uid": "18987654311",
+    "username": "bolb11",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "platon@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Aristotles",
+    "uid": "18987654312",
+    "username": "bolb12",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "aristotles@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Sokrates",
+    "uid": "18987654313",
+    "username": "bolb13",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "sokrates@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Friedrich Nietzsche",
+    "uid": "18987654314",
+    "username": "bolb14",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "friedrich.nietzsche@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "David Hume",
+    "uid": "18987654315",
+    "username": "bolb15",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "davidhume@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Renè Descartes",
+    "uid": "18987654316",
+    "username": "bolb16",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "rene.descartes@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "Karl Marx",
+    "uid": "18987654317",
+    "username": "bolb17",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "karl.marx@hotmail.com",
+    "groups": "BAMVS:1HSA"
+  },
+  {
+    "name": "John Locke",
+    "uid": "bolb18",
     "username": "bola",
     "address": "Kongleskogen 98, 1732 Høtten",
     "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Bill Bollerud",
-    "uid": "18987654321",
-    "username": "bolb",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Ballerina Bollerud",
-    "uid": "18987654322",
-    "username": "bola",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Bill Bollerud",
-    "uid": "18987654321",
-    "username": "bolb",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Ballerina Bollerud",
-    "uid": "18987654322",
-    "username": "bola",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Bill Bollerud",
-    "uid": "18987654321",
-    "username": "bolb",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Ballerina Bollerud",
-    "uid": "18987654322",
-    "username": "bola",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Bill Bollerud",
-    "uid": "18987654321",
-    "username": "bolb",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Ballerina Bollerud",
-    "uid": "18987654322",
-    "username": "bola",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Bill Bollerud",
-    "uid": "18987654321",
-    "username": "bolb",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Ballerina Bollerud",
-    "uid": "18987654322",
-    "username": "bola",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Bill Bollerud",
-    "uid": "18987654321",
-    "username": "bolb",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Ballerina Bollerud",
-    "uid": "18987654322",
-    "username": "bola",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Bill Bollerud",
-    "uid": "18987654321",
-    "username": "bolb",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Ballerina Bollerud",
-    "uid": "18987654322",
-    "username": "bola",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Bill Bollerud",
-    "uid": "18987654321",
-    "username": "bolb",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
-  },
-  {
-    "name": "Ballerina Bollerud",
-    "uid": "18987654322",
-    "username": "bola",
-    "address": "Kongleskogen 98, 1732 Høtten",
-    "phone": "98765432",
-    "mail": "bollekongen@hotmail.com"
+    "mail": "john.locke@hotmail.com",
+    "groups": "BAMVS:1HSA"
   }
 ]
