@@ -4,7 +4,10 @@
   "scope": "alheimsins",
   "alias": "api.louie.alheimsins.net",
   "env": {
-    "PDF_SERVICE_URL": "https://pdf.louie.alheimsins.net/api/generate/pdf"
+    "PDF_SERVICE_URL": "https://pdf.louie.alheimsins.net/api/generate/pdf",
+    "MONGODB_CONNECTION": "@louie-db-connection-demo",
+    "MONGODB_BUDDY_COLLECTION": "buddy",
+    "MONGODB_NAME": "louie"
   },
   "builds": [
     {
