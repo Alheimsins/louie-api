@@ -1,5 +1,5 @@
 const mongo = require('../lib/mongo')
-const logger = require('../lib/logger')
+// const logger = require('../lib/logger')
 
 module.exports = async (request, response) => {
   const payload = await request.body

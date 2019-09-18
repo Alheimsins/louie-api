@@ -1,38 +1,723 @@
-{
-  "name": "Bill Bollerud",
-  "uid": "18987654321",
-  "username": "bolb",
-  "address": "Kongleskogen 98, 1732 Høtten",
-  "phone": "98765432",
-  "mail": "bollekongen@hotmail.com",
-  "school": "Bamble videregående skole",
-  "guardians": [
-    {
-      "name": "Bill Bollerud",
-      "uid": "18987654324",
-      "address": "Kongleskogen 98, 1732 Høtten",
-      "phone": "98765432",
-      "mail": "bollekongen@hotmail.com"
-    },
-    {
-      "name": "Bill Bollerud",
-      "uid": "18987654324",
-      "address": "Kongleskogen 98, 1732 Høtten",
-      "phone": "98765432",
-      "mail": "bollekongen@hotmail.com"
-    }
-  ],
-  "groups": "BAMVS:1HSA",
-  "classes": [
-    "Engelsk",
-    "Norsk",
-    "Fransk"
-  ],
-  "warnings": [
-    {
-      "date": "",
-      "type": "",
-      "from": ""
-    }
-  ]
-}
+
+[
+  {
+    "name": "Bill Bollerud",
+    "uid": "18987654301",
+    "username": "bolb1",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "bollekongen@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/1?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Ballerina Bollerud",
+    "uid": "18987654302",
+    "username": "bolb2",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "bollekongen@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/2?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Ayn Rand",
+    "uid": "18987654303",
+    "username": "bolb3",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "ayn.rand@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/3?set=2",
+    "guardians": [
+        {
+          "name": "Bill Bollerud",
+          "uid": "18987654324",
+          "address": "Kongleskogen 98, 1732 Høtten",
+          "phone": "98765432",
+          "mail": "bollekongen@hotmail.com"
+        },
+        {
+          "name": "Bill Bollerud",
+          "uid": "18987654324",
+          "address": "Kongleskogen 98, 1732 Høtten",
+          "phone": "98765432",
+          "mail": "bollekongen@hotmail.com"
+        }
+      ],
+      "groups": "BAMVS:1HSA",
+      "classes": [
+        "Engelsk",
+        "Norsk",
+        "Fransk"
+      ],
+      "warnings": [
+        {
+          "date": "",
+          "type": "",
+          "from": ""
+        }
+      ]
+  },
+  {
+    "name": "Baron de Montesquieu",
+    "uid": "18987654304",
+    "username": "bolb4",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "baron.de.montesquieu@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/4?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "George Berkeley",
+    "uid": "18987654305",
+    "username": "bolb5",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "george.berkeley@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/5?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Jean-Jacques Rousseau",
+    "uid": "18987654306",
+    "username": "bolb6",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "jean-jacques.Rousseau@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/6?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Paul Smith",
+    "uid": "18987654307",
+    "username": "bolb7",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "paul.smith@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/7?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Simone de Beauvoir",
+    "uid": "18987654308",
+    "username": "bolb8",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "simone.de.Beauvoir@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/8?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Sun Tzu",
+    "uid": "18987654309",
+    "username": "bolb9",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "sun.tzu@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/9?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Thomas Topstad",
+    "uid": "18987654310",
+    "username": "bolb10",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "thomas.topstad@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/10?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Platon",
+    "uid": "18987654311",
+    "username": "bolb11",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "platon@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/11?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Aristotles",
+    "uid": "18987654312",
+    "username": "bolb12",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "aristotles@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/12?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Sokrates",
+    "uid": "18987654313",
+    "username": "bolb13",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "sokrates@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/13?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Friedrich Nietzsche",
+    "uid": "18987654314",
+    "username": "bolb14",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "friedrich.nietzsche@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/14?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "David Hume",
+    "uid": "18987654315",
+    "username": "bolb15",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "davidhume@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/15?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Renè Descartes",
+    "uid": "18987654316",
+    "username": "bolb16",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "rene.descartes@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/16?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "Karl Marx",
+    "uid": "18987654317",
+    "username": "bolb17",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "karl.marx@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/17?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  },
+  {
+    "name": "John Locke",
+    "uid": "bolb18",
+    "username": "bola",
+    "address": "Kongleskogen 98, 1732 Høtten",
+    "phone": "98765432",
+    "mail": "john.locke@hotmail.com",
+    "groups": "BAMVS:1HSA",
+    "school": "Bamble videregående skole",
+    "imageUrl": "https://robohash.org/18?set=2",
+    "guardians": [
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      },
+      {
+        "name": "Bill Bollerud",
+        "uid": "18987654324",
+        "address": "Kongleskogen 98, 1732 Høtten",
+        "phone": "98765432",
+        "mail": "bollekongen@hotmail.com"
+      }
+    ],
+    "groups": "BAMVS:1HSA",
+    "classes": [
+      "Engelsk",
+      "Norsk",
+      "Fransk"
+    ],
+    "warnings": [
+      {
+        "date": "",
+        "type": "",
+        "from": ""
+      }
+    ]
+  }
+]

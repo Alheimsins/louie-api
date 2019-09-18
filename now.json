@@ -39,7 +39,7 @@
     },
     {
       "src": "/api/students/(.*)",
-      "dest": "/api/get-student.js",
+      "dest": "/api/get-student.js?id=$1",
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
