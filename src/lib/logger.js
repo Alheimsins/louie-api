@@ -1,4 +1,4 @@
-const { name, version } = require('../package.json')
+const { name, version } = require('../../package.json')
 
 module.exports = (level, message) => {
   const data = Array.isArray(message) ? message : [message]

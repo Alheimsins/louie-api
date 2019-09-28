@@ -1,6 +1,7 @@
+const mongo = require('../lib/mongo')
+const logger = require('../lib/logger')
+
 module.exports = async (request, response) => {
-  const mongo = require('../lib/mongo')
-  const logger = require('../lib/logger')
   const db = await mongo()
   const collection = db.collection(process.env.MONGODB_TJOMMI_COLLECTION)
   logger('info', ['api', 'get-students', 'start'])

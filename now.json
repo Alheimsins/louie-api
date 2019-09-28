@@ -16,14 +16,23 @@
       "use": "@now/md"
     },
     {
-      "src": "/api/*.js",
+      "src": "/src/api/*.js",
       "use": "@now/node"
     }
   ],
   "routes": [
     {
+      "src": "/(.*)",
+      "dest": "/src/api/options.js",
+      "methods": ["OPTIONS"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+      }
+    },
+    {
       "src": "/api/groups",
-      "dest": "/api/get-groups.js",
+      "dest": "/src/api/get-groups.js",
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
@@ -31,7 +40,7 @@
     },
     {
       "src": "/api/students",
-      "dest": "/api/get-students.js",
+      "dest": "/src/api/get-students.js",
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
@@ -39,7 +48,7 @@
     },
     {
       "src": "/api/students/(.*)",
-      "dest": "/api/get-student.js?id=$1",
+      "dest": "/src/api/get-student.js?username=$1",
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
@@ -47,7 +56,7 @@
     },
     {
       "src": "/api/documents",
-      "dest": "/api/get-documents.js",
+      "dest": "/src/api/get-documents.js",
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
@@ -55,7 +64,7 @@
     },
     {
       "src": "/api/documents/generate",
-      "dest": "/api/document-generate.js",
+      "dest": "/src/api/document-generate.js",
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
@@ -63,7 +72,7 @@
     },
     {
       "src": "/api/documents/generate/base64",
-      "dest": "/api/document-generate-base64.js",
+      "dest": "/src/api/document-generate-base64.js",
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
@@ -74,7 +83,7 @@
     },
     {
       "src": "/api/documents/send",
-      "dest": "/api/document-send.js",
+      "dest": "/src/api/document-send.js",
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
