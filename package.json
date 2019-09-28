@@ -9,7 +9,8 @@
     "dev": "now dev",
     "deploy": "now --prod",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm i",
-    "standard-fix": "standard --fix"
+    "standard-fix": "standard --fix",
+    "import": "node utils/import-data.js"
   },
   "repository": {
     "type": "git",

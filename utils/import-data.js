@@ -4,7 +4,7 @@
   const logger = require('../lib/logger')
   const students = require('../test/data/students-dummy.json')
   const db = await mongo()
-  const collection = db.collection(process.env.MONGODB_BUDDY_COLLECTION)
+  const collection = db.collection(process.env.MONGODB_TJOMMI_COLLECTION)
   logger('info', ['utils', 'import-students', 'got', students.length, 'students'])
   try {
     await Promise.all(students.map(student => collection.insertOne(student)))

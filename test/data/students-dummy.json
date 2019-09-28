@@ -7,7 +7,24 @@
     "phone": "98765432",
     "mail": "bollekongen@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Ballerina Bollerud",
@@ -17,7 +34,24 @@
     "phone": "98765432",
     "mail": "bollekongen@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Ayn Rand",
@@ -27,7 +61,24 @@
     "phone": "98765432",
     "mail": "ayn.rand@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Baron de Montesquieu",
@@ -37,7 +88,24 @@
     "phone": "98765432",
     "mail": "baron.de.montesquieu@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "George Berkeley",
@@ -47,7 +115,24 @@
     "phone": "98765432",
     "mail": "george.berkeley@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Jean-Jacques Rousseau",
@@ -57,7 +142,24 @@
     "phone": "98765432",
     "mail": "jean-jacques.Rousseau@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Paul Smith",
@@ -67,7 +169,24 @@
     "phone": "98765432",
     "mail": "paul.smith@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Simone de Beauvoir",
@@ -77,7 +196,24 @@
     "phone": "98765432",
     "mail": "simone.de.Beauvoir@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Sun Tzu",
@@ -87,7 +223,24 @@
     "phone": "98765432",
     "mail": "sun.tzu@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Thomas Topstad",
@@ -97,7 +250,24 @@
     "phone": "98765432",
     "mail": "thomas.topstad@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Platon",
@@ -107,7 +277,24 @@
     "phone": "98765432",
     "mail": "platon@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Aristotles",
@@ -117,7 +304,24 @@
     "phone": "98765432",
     "mail": "aristotles@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Sokrates",
@@ -127,7 +331,24 @@
     "phone": "98765432",
     "mail": "sokrates@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Friedrich Nietzsche",
@@ -137,7 +358,24 @@
     "phone": "98765432",
     "mail": "friedrich.nietzsche@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "David Hume",
@@ -147,7 +385,24 @@
     "phone": "98765432",
     "mail": "davidhume@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Renè Descartes",
@@ -157,7 +412,24 @@
     "phone": "98765432",
     "mail": "rene.descartes@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "Karl Marx",
@@ -167,7 +439,24 @@
     "phone": "98765432",
     "mail": "karl.marx@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   },
   {
     "name": "John Locke",
@@ -177,6 +466,23 @@
     "phone": "98765432",
     "mail": "john.locke@hotmail.com",
     "groups": "BAMVS:1HSA",
-    "school": "Bamble videregående skole"
+    "school": "Bamble videregående skole",
+    "type": "student",
+    "classes": [
+      {
+        "gid": "NOTVS:1ST/151FSP509",
+        "sid": "NOTVS",
+        "name": "Spansk",
+        "description": "Spansk I, 1. år",
+        "type": "class"
+      },
+      {
+        "gid": "NOTVS:1ST/208FSM509",
+        "sid": "NOTVS",
+        "name": "Matematikk",
+        "description": "Matematikk II, 2. år",
+        "type": "class"
+      }
+    ]
   }
 ]
