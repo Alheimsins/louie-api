@@ -13,6 +13,5 @@ module.exports = async (request, response) => {
   }
   const data = await fetch(process.env.PDF_SERVICE_URL, options)
   const base64File = (await data.buffer()).toString('base64')
-  console.log(base64File)
   response.send(`data:application/pdf;base64,${base64File}`)
 }
