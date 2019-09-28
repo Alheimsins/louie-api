@@ -10,5 +10,5 @@ module.exports = async (request, response) => {
   const students = await collection.find({ uid: id, type: 'student' }).toArray()
   logger('info', ['api', 'get-student', 'id', id, 'get', students.length, 'students'])
   const results = students.map(student => Object.assign({}, student, { documents: documents }))
-  response.json(results)
+  response.json(results[0])
 }
