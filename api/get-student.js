@@ -7,8 +7,7 @@ module.exports = async (request, response) => {
   const collection = db.collection(process.env.MONGODB_TJOMMI_COLLECTION)
   const { id } = request.query
   logger('info', ['api', 'get-student', 'id', id, 'start'])
-  const students = await collection.find({ uid: id, type: 'student' }).toArray()
-  logger('info', ['api', 'get-student', 'id', id, 'get', students.length, 'students'])
-  const results = students.map(student => Object.assign({}, student, { documents: documents }))
-  response.json(results[0])
+  const student = await collection.findOne({ uid: id, type: 'student' })
+  logger('info', ['api', 'get-student', 'id', id, 'get', student ? student.username : 'none', 'students'])
+  response.json({ ...student, documents })
 }
