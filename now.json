@@ -6,7 +6,7 @@
   "env": {
     "PDF_SERVICE_URL": "https://pdf.louie.alheimsins.net/api/generate/pdf",
     "MONGODB_CONNECTION": "@louie-db-connection-demo",
-    "MONGODB_BUDDY_COLLECTION": "buddy",
+    "MONGODB_TJOMMI_COLLECTION": "tjommi",
     "MONGODB_LOGS_COLLECTION": "logs",
     "MONGODB_NAME": "louie"
   },
