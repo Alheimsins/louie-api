@@ -16,81 +16,54 @@
       "use": "@now/md"
     },
     {
-      "src": "/src/api/*.js",
+      "src": "/api/*.js",
       "use": "@now/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/src/api/options.js",
-      "methods": ["OPTIONS"],
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
-      }
-    },
-    {
-      "src": "/api/groups",
-      "dest": "/src/api/get-groups.js",
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
-      }
-    },
-    {
-      "src": "/api/students",
-      "dest": "/src/api/get-students.js",
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
-      }
-    },
-    {
-      "src": "/api/students/(.*)",
-      "dest": "/src/api/get-student.js?username=$1",
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
-      }
-    },
-    {
-      "src": "/api/documents",
-      "dest": "/src/api/get-documents.js",
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
-      }
-    },
-    {
-      "src": "/api/documents/generate",
-      "dest": "/src/api/document-generate.js",
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
-      }
-    },
-    {
-      "src": "/api/documents/generate/base64",
-      "dest": "/src/api/document-generate-base64.js",
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
-        "Access-Control-Allow-Methods": "OPTIONS, POST",
-        "Access-Control-Allow-Credentials": "true",
-        "Access-Control-Max-Age": "3600"
-      }
-    },
-    {
-      "src": "/api/documents/send",
-      "dest": "/src/api/document-send.js",
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
-      }
+      },
+      "continue": true
     },
     {
       "src": "/(.*)",
+      "dest": "/api/options.js",
+      "methods": ["OPTIONS"]
+    },
+    {
+      "src": "/api/groups",
+      "dest": "/api/get-groups.js"
+    },
+    {
+      "src": "/api/students",
+      "dest": "/api/get-students.js"
+    },
+    {
+      "src": "/api/students/(.*)",
+      "dest": "/api/get-student.js?username=$1"
+    },
+    {
+      "src": "/api/documents",
+      "dest": "/api/get-documents.js"
+    },
+    {
+      "src": "/api/documents/generate",
+      "dest": "/api/document-generate.js"
+    },
+    {
+      "src": "/api/documents/generate/base64",
+      "dest": "/api/document-generate-base64.js"
+    },
+    {
+      "src": "/api/documents/send",
+      "dest": "/api/document-send.js"
+    },
+    {
+      "src": "/",
       "dest": "/README.html"
     }
   ]
