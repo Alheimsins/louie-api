@@ -1,20 +1,18 @@
-const mongo = require('../lib/mongo')
+const getData = require('../lib/get-tjommi-data')
 const logger = require('../lib/logger')
 const documents = require('../test/data/documents-dummy.json')
 
 module.exports = async (request, response) => {
-  const db = await mongo()
-  const collection = db.collection(process.env.MONGODB_TJOMMI_COLLECTION)
   const { username } = request.query
   logger('info', ['api', 'get-student', 'username', username, 'start'])
   try {
-    const student = await collection.findOne({ username, type: 'student' })
-    if (!student) {
-      logger('info', ['api', 'get-student', 'username', username, 'not found'])
+    const students = await getData({ username, type: 'student' })
+    if (students.length !== 1) {
+      logger('info', ['api', 'get-student', 'username', username, `${students.length === 0 ? 'not found' : 'too many found'}`])
       return response.json({})
     }
     logger('info', ['api', 'get-student', 'username', username, 'found'])
-    response.json({ ...student, documents })
+    response.json({ ...students[0], documents })
   } catch (error) {
     logger('error', ['api', 'get-student', error])
     response.status(500)

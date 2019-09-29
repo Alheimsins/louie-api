@@ -1,6 +1,5 @@
 const { ApolloServer, gql } = require('apollo-server-micro')
-const getStudents = require('../../lib/get-students-query')
-const getStudent = require('../../lib/get-student-query')
+const getTjommiData = require('../../lib/get-tjommi-data')
 
 const typeDefs = gql`
   type Student {
@@ -24,8 +23,8 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    Students: async () => getStudents(),
-    Student: async (root, args, context, info) => getStudent(args)
+    Students: async () => getTjommiData({ type: 'student' }),
+    Student: async (root, args, context, info) => getTjommiData({ ...args, type: 'student' })[0]
   }
 }
 
