@@ -16,6 +16,10 @@ The one and only api for louie
 
 ## `POST /api/documents/generate`
 
+## `/api/grapqhl`
+
+The graphql interface for louie
+
 ```
 {
   "data": {

@@ -18,6 +18,10 @@
     {
       "src": "/api/*.js",
       "use": "@now/node"
+    },
+    {
+      "src": "/api/graphql/*.js",
+      "use": "@now/node"
     }
   ],
   "routes": [
@@ -28,6 +32,10 @@
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
       },
       "continue": true
+    },
+    {
+      "src": "/api/graphql",
+      "dest": "/api/graphql/index.js"
     },
     {
       "src": "/(.*)",
