@@ -8,7 +8,7 @@ module.exports = async (request, response) => {
     const template = generateTemplate(body)
     const data = await pdfmake(template)
     response.setHeader('Content-Type', 'application/pdf')
-    response.send(data.buffer())
+    response.send(data)
   } catch (error) {
     logger('error', ['api', 'documents', 'generate', error])
     response.status(500)
