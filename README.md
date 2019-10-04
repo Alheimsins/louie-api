@@ -86,7 +86,6 @@ Add a local `.env` file
 MONGODB_CONNECTION=your-mongodb-connection
 MONGODB_TJOMMI_COLLECTION=name-for-tjommi-collection
 MONGODB_LOGS_COLLECTION=name-for-logs-collection
-MONGODB_NAME=mongodb-name
 PDF_SERVICE_URL=url-for-generating-pdf
 ```
 
