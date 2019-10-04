@@ -7,7 +7,7 @@ module.exports = async (request, response) => {
   try {
     const template = generateTemplate(body)
     const base64File = (await pdfmake(template)).toString('base64')
-    response.send(`data:application/pdf;base64,${base64File}`)
+    response.send(base64File)
   } catch (error) {
     logger('error', ['api', 'documents', 'generate-base64', error])
     response.status(500)
