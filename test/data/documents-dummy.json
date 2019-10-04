@@ -1,11 +1,70 @@
 [
   {
-    "id": "bFsunbd83638",
-    "name": "Varsel om noe",
-    "date": "2019-09-07",
-    "groups": [
-      "Spansk ı, 1. år"
-    ],
+    "id": "bFsunbd83631",
+    "date": "26.09.19",
+    "type": "Varselbrev fag",
+    "fag": "Spansk I+II",
+    "term": "1. termin",
+    "sentByName": "Demo User",
+    "recipients": [
+      {
+        "name": "Laila Krem"
+      },
+      {
+        "name": "Kåre Krem"
+      }
+    ]
+  },
+  {
+    "id": "bFsunbd83632",
+    "date": "25.09.19",
+    "type": "Varselbrev fag",
+    "fag": "Engelsk",
+    "term": "1. termin",
+    "sentByName": "Demo User",
+    "recipients": [
+      {
+        "name": "Laila Krem"
+      },
+      {
+        "name": "Kåre Krem"
+      }
+    ]
+  },
+  {
+    "id": "bFsunbd83633",
+    "date": "20.09.19",
+    "type": "Varselbrev orden",
+    "term": "1. termin",
+    "sentByName": "Demo User",
+    "recipients": [
+      {
+        "name": "Laila Krem"
+      },
+      {
+        "name": "Kåre Krem"
+      }
+    ]
+  },
+  {
+    "id": "bFsunbd83634",
+    "date": "01.09.19",
+    "type": "Notat",
+    "sentByName": "Demo User",
+    "recipients": [
+      {
+        "name": "Laila Krem"
+      },
+      {
+        "name": "Kåre Krem"
+      }
+    ]
+  },
+  {
+    "id": "bFsunbd83635",
+    "date": "01.09.19",
+    "type": "Elevsamtale",
+    "sentByName": "Demo User",
     "recipients": [
       {
         "name": "Laila Krem"
