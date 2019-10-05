@@ -2,7 +2,7 @@ const getData = require('../lib/get-tjommi-data')
 const validateAuth = require('../lib/auth')
 const logger = require('../lib/logger')
 
-const getStudents = async (request, response, user) => {
+const getStudents = async (request, response) => {
   logger('info', ['api', 'get-students', 'start'])
   logger('info', ['api', 'get-students', 'user', request.user.name])
   try {
