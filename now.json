@@ -8,7 +8,10 @@
     "MONGODB_CONNECTION": "@louie-db-connection-demo",
     "MONGODB_TJOMMI_COLLECTION": "tjommi",
     "MONGODB_LOGS_COLLECTION": "logs",
-    "MONGODB_NAME": "louie"
+    "MONGODB_NAME": "louie",
+    "AUTH_PUBLIC_CERT_URL": "https://www.googleapis.com/oauth2/v1/certs",
+    "AUTH_ISSUER": "https://accounts.google.com",
+    "AUTH_CLIENT_ID": "@louie-auth-client-id"
   },
   "builds": [
     {
