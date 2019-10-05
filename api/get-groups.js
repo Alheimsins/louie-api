@@ -1,5 +1,8 @@
 const groups = require('../test/data/groups-dummy.json')
+const validateAuth = require('../lib/auth')
 
-module.exports = async (request, response) => {
+const getGroups = async (request, response) => {
   response.json(groups)
 }
+
+module.exports = validateAuth(getGroups)

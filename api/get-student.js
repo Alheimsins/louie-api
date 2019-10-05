@@ -1,10 +1,12 @@
 const getData = require('../lib/get-tjommi-data')
 const logger = require('../lib/logger')
 const documents = require('../test/data/documents-dummy.json')
+const validateAuth = require('../lib/auth')
 
-module.exports = async (request, response) => {
+const getUser = async (request, response) => {
   const { username } = request.query
   logger('info', ['api', 'get-student', 'username', username, 'start'])
+  logger('info', ['api', 'get-students', 'user', request.user.name])
   try {
     const students = await getData({ username, type: 'student' })
     if (students.length !== 1) {
@@ -19,3 +21,5 @@ module.exports = async (request, response) => {
     response.send(error)
   }
 }
+
+module.exports = validateAuth(getUser)
