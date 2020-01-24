@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@alheimsins/pdf-make": "1.0.0",
-    "@sendgrid/mail": "6.5.0",
+    "@sendgrid/mail": "6.5.1",
     "apollo-server-micro": "2.9.16",
     "axios": "0.19.1",
     "axios-cache-adapter": "2.5.0",
