@@ -42,7 +42,7 @@
     "ava": "3.5.0",
     "dotenv": "8.2.0",
     "nyc": "15.0.0",
-    "standard": "14.3.1"
+    "standard": "14.3.3"
   },
   "dependencies": {
     "@alheimsins/pdf-make": "1.0.0",
