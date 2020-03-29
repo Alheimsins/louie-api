@@ -54,7 +54,7 @@
     "graphql": "14.6.0",
     "jsonwebtoken": "8.5.1",
     "mongodb": "3.5.5",
-    "nanoid": "3.0.1"
+    "nanoid": "3.0.2"
   },
   "engines": {
     "node": "12.16.1"
