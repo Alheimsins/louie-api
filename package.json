@@ -41,7 +41,7 @@
   "devDependencies": {
     "ava": "3.5.2",
     "dotenv": "8.2.0",
-    "nyc": "15.0.0",
+    "nyc": "15.0.1",
     "standard": "14.3.3"
   },
   "dependencies": {
