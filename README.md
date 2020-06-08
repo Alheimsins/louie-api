@@ -39,6 +39,7 @@ MONGODB_TJOMMI_COLLECTION=name-for-tjommi-collection
 MONGODB_LOGS_COLLECTION=name-for-logs-collection
 MONGODB_NAME=mongodb-name
 PDF_SERVICE_URL=url-for-generating-pdf
+AUTH_CLIENT_ID=auth-client-id
 ```
 
 Start the development server
