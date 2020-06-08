@@ -1,0 +1,6 @@
+.env
+.now
+.vercel
+node_modules
+utils
+test

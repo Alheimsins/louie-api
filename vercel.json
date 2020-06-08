@@ -1,8 +1,6 @@
 {
   "version": 2,
-  "name": "louie-api",
   "scope": "alheimsins",
-  "alias": "api.louie.alheimsins.net",
   "env": {
     "PDF_SERVICE_URL": "https://pdf.louie.alheimsins.net/api/generate/pdf",
     "MONGODB_CONNECTION": "@louie-db-connection-demo",
