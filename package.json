@@ -1,6 +1,6 @@
 {
   "name": "louie-api",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "The one and only api for louie",
   "main": "index.js",
   "private": true,
