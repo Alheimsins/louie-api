@@ -1,24 +1,18 @@
 on:
   release:
     types: [published]
-    branches:
-      - master
+    branches: [master]
 name: Test and Deploy on release
 jobs:
   build:
-    name: Build
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Build
-      uses: actions/npm@master
+    - uses: actions/setup-node@v1
       with:
-        args: install
-    - name: Test
-      uses: actions/npm@master
-      with:
-        args: test
-    - name: Deploy to ZEIT
+        node-version: 12
+    - run: npm install
+    - run: npm test
+    - run: now --prod --confirm --token ${ZEIT_TOKEN}
       env:
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-      run: now --prod --confirm --token ${ZEIT_TOKEN}
