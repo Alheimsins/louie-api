@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/Alheimsins/louie-api#readme",
   "devDependencies": {
-    "ava": "4.0.0",
+    "ava": "4.0.1",
     "dotenv": "10.0.0",
     "nyc": "15.1.0",
     "standard": "16.0.4"
